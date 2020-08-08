@@ -1,0 +1,54 @@
+:root {
+  // Primary Color
+  --DarkViolet: hsl(256, 26%, 20%);
+  --GrayishBlue: hsl(216, 30%, 68%);
+
+  // Neutral
+  --VeryDarkViolet: hsl(270, 9%, 17%);
+  --DarkGrayishViolet: hsl(273, 4%, 51%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+
+  // fonts
+  --headings: "DM Serif Display", serif;
+  --text: "Karla", sans-serif;
+
+  // media querys
+  --mobile: 375px;
+  --desktop: 1440px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  // font-size: 16px;
+}
+
+body {
+  font-family: var(--text);
+  background-color: white;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1020px) {
+  .full-wrapper {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}

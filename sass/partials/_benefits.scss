@@ -1,0 +1,84 @@
+.benefits {
+  padding: 10rem 0;
+  .line__section {
+    width: 10rem;
+    height: 0.05rem;
+    background-color: var(--DarkGrayishViolet);
+    margin: 0 auto;
+  }
+  .title__section {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    font-family: var(--headings);
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+  }
+  .benefits__container {
+    margin-bottom: 4rem;
+    .card {
+      text-align: center;
+      margin-bottom: 4rem;
+      img {
+        width: 9rem;
+        min-height: 9rem;
+        object-fit: contain;
+        margin: 0 auto 4rem auto;
+      }
+      .card__content {
+        .title {
+          font-size: 2.5rem;
+          line-height: 1.2;
+          font-family: var(--headings);
+          font-weight: 300;
+          margin-bottom: 2rem;
+        }
+        .description {
+          font-size: 1.6rem;
+          line-height: 2;
+          font-weight: 300;
+          color: var(--DarkGrayishViolet);
+        }
+      }
+    }
+  }
+  .benefits__banner {
+    background-color: var(--DarkViolet);
+    text-align: center;
+    padding: 8rem 2.5rem;
+    position: relative;
+    .banner__text {
+      position: relative;
+      z-index: 2;
+      .title {
+        font-size: 4.5rem;
+        font-weight: 400;
+        line-height: 1.1;
+        text-align: center;
+        font-family: var(--headings);
+        color: white;
+        margin-bottom: 5rem;
+      }
+      .banner__cta {
+        display: inline-block;
+        border: 2px solid white;
+        padding: 1.2rem 2.2rem;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+    .pattern-how-we-work {
+      background-image: url("../images/bg-pattern-how-we-work-mobile.svg");
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      height: 35rem;
+      width: 20rem;
+    }
+  }
+}
